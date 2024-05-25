@@ -17,7 +17,7 @@
 .dashboard-btn {
   margin-bottom: 20px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #0D98BA;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -30,7 +30,7 @@
 }
 
 .dashboard-btn:hover {
-  background-color: #0056b3;
+  background-color: #0D98BA;
 }
 
 .dashboard-link {
@@ -67,7 +67,7 @@
   .dashboard-btn {
     margin-bottom: 10px; /* Adjusted margin to reduce space between buttons */
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #0D98BA;
     color: #fff;
     border: none;
     border-radius: 5px;

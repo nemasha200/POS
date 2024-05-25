@@ -10,23 +10,23 @@ function LoginPage() {
     e.preventDefault();
     
     try {
-      const response = await fetch('http://your-backend-api.com/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
-      });
+      // const response = await fetch('http://your-backend-api.com/login', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json'
+      //   },
+      //   body: JSON.stringify(formData)
+      // });
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.message);
-      }
+      // if (!response.ok) {
+      //   const errorData = await response.json();
+      //   throw new Error(errorData.message);
+      // }
 
-      const { token } = await response.json();
+      // const { token } = await response.json();
 
-      // Store token securely (e.g., in localStorage or sessionStorage)
-      localStorage.setItem('token', token);
+      // // Store token securely (e.g., in localStorage or sessionStorage)
+      // localStorage.setItem('token', token);
 
       // Redirect to dashboard or any other authenticated route
       window.location.href = '/dashboard';

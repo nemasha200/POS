@@ -40,7 +40,7 @@
 }
 
 .item-category-table-head {
-  background-color: #007bff;
+  background-color: #0D98BA;
   color: #fff;
 }
 
@@ -54,7 +54,7 @@
 
 .item-category-table-cell button {
   padding: 5px 10px;
-  background-color: #007bff;
+  background-color:#0D98BA;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -62,7 +62,7 @@
 }
 
 .item-category-table-cell button:hover {
-  background-color: #0056b3;
+  background-color: #0D98BA;
 }
 
 .item-category-table-cell button:active {
@@ -111,8 +111,8 @@
 
 .item-category-input:focus {
   outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 5px #007bff;
+  border-color: #0D98BA;
+  box-shadow: 0 0 5px #0D98BA;
 }
 
 .item-category-input[type="number"]::-webkit-inner-spin-button,
@@ -125,7 +125,7 @@
   padding: 8px 16px;
   margin: 0 5px;
 
-  background-color: #007bff;
+  background-color: #0D98BA;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -143,7 +143,7 @@
 }
 
 .item-category-btn:hover {
-  background-color: #0056b3;
+  background-color: #0D98BA;
 }
 
 .item-category-btn:disabled {
